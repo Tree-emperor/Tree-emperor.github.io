@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Categories on 西江月:Tree-emperor</title>
+        <link>https://Tree-emperor.github.io/categories/</link>
+        <description>Recent content in Categories on 西江月:Tree-emperor</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>西江月</copyright>
+        <lastBuildDate>Wed, 21 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Tree-emperor.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Cocos</title>
+        <link>https://Tree-emperor.github.io/categories/cocos/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Tree-emperor.github.io/categories/cocos/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/cocos/%E5%B0%8F%E9%87%91%E9%B1%BC.jpg" alt="Featured image of post Cocos" /&gt;</description>
+        </item>
+        <item>
+        <title>Hugo</title>
+        <link>https://Tree-emperor.github.io/categories/hugo/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Tree-emperor.github.io/categories/hugo/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/hugo/%E8%80%84%E8%80%8B.jpg" alt="Featured image of post Hugo" /&gt;</description>
+        </item>
+        <item>
+        <title>Java</title>
+        <link>https://Tree-emperor.github.io/categories/java/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Tree-emperor.github.io/categories/java/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/java/%E8%B1%86%E8%B1%86.jpg" alt="Featured image of post Java" /&gt;</description>
+        </item>
+        <item>
+        <title>Vue3</title>
+        <link>https://Tree-emperor.github.io/categories/vue3/</link>
+        <pubDate>Wed, 21 May 2025 00:00:00 +0000</pubDate>
+        
+        <guid>https://Tree-emperor.github.io/categories/vue3/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/vue3/%E8%B1%86%E8%B1%86%E7%83%AD.jpg" alt="Featured image of post Vue3" /&gt;</description>
+        </item>
+        
+    </channel>
+</rss>
