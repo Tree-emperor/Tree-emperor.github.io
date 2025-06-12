@@ -2,42 +2,42 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Categories on 西江月:Tree-emperor</title>
-        <link>http://localhost:1313/categories/</link>
+        <link>https://Tree-emperor.github.io/categories/</link>
         <description>Recent content in Categories on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>西江月</copyright>
-        <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Java</title>
-        <link>http://localhost:1313/categories/java/</link>
-        <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
+        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Tree-emperor.github.io/categories/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>https://Tree-emperor.github.io/categories/hugo/</link>
+        <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/java/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/java/%E5%AE%89%E5%8D%A1%E5%93%AD.jpg" alt="Featured image of post Java" /&gt;</description>
+        <guid>https://Tree-emperor.github.io/categories/hugo/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/hugo/%E8%B1%86%E8%B1%86%E7%83%AD.jpg" alt="Featured image of post Hugo" /&gt;</description>
         </item>
         <item>
-        <title>Hugo</title>
-        <link>http://localhost:1313/categories/hugo/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>Java</title>
+        <link>https://Tree-emperor.github.io/categories/java/</link>
+        <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/hugo/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/hugo/%E6%99%B4.jpg" alt="Featured image of post Hugo" /&gt;</description>
+        <guid>https://Tree-emperor.github.io/categories/java/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/java/%E8%80%84%E8%80%8B.jpg" alt="Featured image of post Java" /&gt;</description>
         </item>
         <item>
         <title>Cocos</title>
-        <link>http://localhost:1313/categories/cocos/</link>
+        <link>https://Tree-emperor.github.io/categories/cocos/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/cocos/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/cocos/%E9%AD%94%E6%B3%95%E5%B0%91%E5%A5%B3.jpg" alt="Featured image of post Cocos" /&gt;</description>
+        <guid>https://Tree-emperor.github.io/categories/cocos/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/cocos/%E8%B1%86%E8%B1%86.jpg" alt="Featured image of post Cocos" /&gt;</description>
         </item>
         <item>
         <title>Vue3</title>
-        <link>http://localhost:1313/categories/vue3/</link>
+        <link>https://Tree-emperor.github.io/categories/vue3/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/categories/vue3/</guid>
-        <description>&lt;img src="http://localhost:1313/categories/vue3/%E5%A4%A7%E5%A4%B4.jpg" alt="Featured image of post Vue3" /&gt;</description>
+        <guid>https://Tree-emperor.github.io/categories/vue3/</guid>
+        <description>&lt;img src="https://Tree-emperor.github.io/categories/vue3/%E5%A4%A7%E5%A4%B4.png" alt="Featured image of post Vue3" /&gt;</description>
         </item>
         
     </channel>

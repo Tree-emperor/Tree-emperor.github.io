@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Cocos on 西江月:Tree-emperor</title>
-        <link>http://localhost:1313/categories/cocos/</link>
+        <link>https://Tree-emperor.github.io/categories/cocos/</link>
         <description>Recent content in Cocos on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>西江月</copyright><atom:link href="http://localhost:1313/categories/cocos/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>西江月</copyright><atom:link href="https://Tree-emperor.github.io/categories/cocos/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
