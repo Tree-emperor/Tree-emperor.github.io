@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://Tree-emperor.github.io/archives/'>
 
-<link rel="stylesheet" href="/scss/style.min.96898672996ceaf55ba2685dc5625c1f21e1bd7ddf5ed448c8e7d904cce3b03e.css"><meta property='og:title' content="归档">
+<link rel="stylesheet" href="/scss/style.min.1876ab1beb85f0f617447014141ab7435ef441abad4697cec5d0d907b30749e1.css"><meta property='og:title' content="归档">
 <meta property='og:description' content="">
 <meta property='og:url' content='https://Tree-emperor.github.io/archives/'>
 <meta property='og:site_name' content='西江月:Tree-emperor'>
@@ -261,6 +261,23 @@
         <div class="article-list--compact">
             
                 <article>
+    <a href="/p/myhugo/">
+        <div class="article-details">
+            <h2 class="article-title">Hugo &#43; Stack网站搭建</h2>
+            <footer class="article-time">
+                <time datetime='2025-06-12T00:00:00Z'>2025-06-12</time>
+            </footer>
+        </div>
+            <div class="article-image">
+                
+                    <img src="https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/cover_hu9421790518969970727.png" loading="lazy" alt="Featured image of post Hugo &#43; Stack网站搭建" />
+                
+            </div>
+        
+    </a>
+</article>
+            
+                <article>
     <a href="/p/springai/">
         <div class="article-details">
             <h2 class="article-title">SpringAI学习</h2>
@@ -268,6 +285,12 @@
                 <time datetime='2025-05-26T00:00:00Z'>2025-05-26</time>
             </footer>
         </div>
+            <div class="article-image">
+                
+                    <img src="https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg" loading="lazy" alt="Featured image of post SpringAI学习" />
+                
+            </div>
+        
     </a>
 </article>
             
@@ -559,6 +582,18 @@
         display: block;
     }
   }
+
+   
+  #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://Tree-emperor.github.io/icons/backTop.svg);
+    }
 </style>
 
 <script>
@@ -595,6 +630,35 @@
           } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
       });
     }
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
     initTocHide()
 </script>
     </body>

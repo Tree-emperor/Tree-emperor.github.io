@@ -6,7 +6,7 @@
 
 <link rel='canonical' href='https://Tree-emperor.github.io/categories-tags/'>
 
-<link rel="stylesheet" href="/scss/style.min.96898672996ceaf55ba2685dc5625c1f21e1bd7ddf5ed448c8e7d904cce3b03e.css"><meta property='og:title' content="分类&标签">
+<link rel="stylesheet" href="/scss/style.min.1876ab1beb85f0f617447014141ab7435ef441abad4697cec5d0d907b30749e1.css"><meta property='og:title' content="分类&标签">
 <meta property='og:description' content="咋的，有点说法啊，你挺猖啊~\n">
 <meta property='og:url' content='https://Tree-emperor.github.io/categories-tags/'>
 <meta property='og:site_name' content='西江月:Tree-emperor'>
@@ -251,34 +251,10 @@
 
             <main class="main full-width">
     <header>
-        <h2 class="section-title">Categories</h2>
+        <h2 class="section-title">分类</h2>
         <div class="subsection-list" >
             <div class="article-list--tile" style="display: grid; grid-template-columns: repeat(2, 1fr); 
             gap: 10px;">
-                
-                    
-<article class="has-image">
-    <a href="/categories/java/">
-        
-        
-            <div class="article-image">
-                <img src="/categories/java/%E8%B1%86%E8%B1%86.5e34173d77e4e0c8b2f6b9361a4d842a_hu_5fe4b047a125f515.jpg" 
-                        width="250" 
-                        height="150" 
-                        loading="lazy"
-                        alt="Featured image of post Java"
-                        
-                        data-hash="md5-XjQXPXfk4Miy9rk2Gk2EKg==">
-                
-            </div>
-        
-
-        <div class="article-details">
-            <h2 class="article-title">Java</h2>
-        </div>
-    </a>
-</article>
-
                 
                     
 <article class="has-image">
@@ -286,13 +262,13 @@
         
         
             <div class="article-image">
-                <img src="/categories/hugo/%E8%80%84%E8%80%8B.817788e9a11f6d71f56998211621734a_hu_1fbbb56389280645.jpg" 
+                <img src="/categories/hugo/%E8%B1%86%E8%B1%86%E7%83%AD.6c84eeeba4bc653bd796ef60f4bfe689_hu_2788ee8efa11cf89.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
                         alt="Featured image of post Hugo"
                         
-                        data-hash="md5-gXeI6aEfbXH1aZghFiFzSg==">
+                        data-hash="md5-bITu66S8ZTvXlu9g9L/miQ==">
                 
             </div>
         
@@ -306,17 +282,41 @@
                 
                     
 <article class="has-image">
+    <a href="/categories/java/">
+        
+        
+            <div class="article-image">
+                <img src="/categories/java/%E8%80%84%E8%80%8B.817788e9a11f6d71f56998211621734a_hu_1fbbb56389280645.jpg" 
+                        width="250" 
+                        height="150" 
+                        loading="lazy"
+                        alt="Featured image of post Java"
+                        
+                        data-hash="md5-gXeI6aEfbXH1aZghFiFzSg==">
+                
+            </div>
+        
+
+        <div class="article-details">
+            <h2 class="article-title">Java</h2>
+        </div>
+    </a>
+</article>
+
+                
+                    
+<article class="has-image">
     <a href="/categories/cocos/">
         
         
             <div class="article-image">
-                <img src="/categories/cocos/%E5%B0%8F%E9%87%91%E9%B1%BC.a5925a7a3ec72450cf2d01fad7e626fa_hu_45a8cbd984c8e0f1.jpg" 
+                <img src="/categories/cocos/%E8%B1%86%E8%B1%86.5e34173d77e4e0c8b2f6b9361a4d842a_hu_5fe4b047a125f515.jpg" 
                         width="250" 
                         height="150" 
                         loading="lazy"
                         alt="Featured image of post Cocos"
                         
-                        data-hash="md5-pZJaej7HJFDPLQH61&#43;Ym&#43;g==">
+                        data-hash="md5-XjQXPXfk4Miy9rk2Gk2EKg==">
                 
             </div>
         
@@ -334,13 +334,13 @@
         
         
             <div class="article-image">
-                <img src="/categories/vue3/%E8%B1%86%E8%B1%86%E7%83%AD.6c84eeeba4bc653bd796ef60f4bfe689_hu_2788ee8efa11cf89.jpg" 
+                <img src="/categories/vue3/%E5%A4%A7%E5%A4%B4.4982e2b2897756b3993df0fbe35a5a24_hu_e54aadab441e65db.png" 
                         width="250" 
                         height="150" 
                         loading="lazy"
                         alt="Featured image of post Vue3"
                         
-                        data-hash="md5-bITu66S8ZTvXlu9g9L/miQ==">
+                        data-hash="md5-SYLisol3VrOZPfD741paJA==">
                 
             </div>
         
@@ -601,6 +601,18 @@
         display: block;
     }
   }
+
+   
+  #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://Tree-emperor.github.io/icons/backTop.svg);
+    }
 </style>
 
 <script>
@@ -637,6 +649,35 @@
           } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
       });
     }
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
     initTocHide()
 </script>
     </body>

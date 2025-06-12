@@ -6,14 +6,14 @@
 
 <link rel='canonical' href='https://Tree-emperor.github.io/categories/cocos/'>
 
-<link rel="stylesheet" href="/scss/style.min.96898672996ceaf55ba2685dc5625c1f21e1bd7ddf5ed448c8e7d904cce3b03e.css"><meta property='og:title' content="Category: Cocos - 西江月:Tree-emperor">
+<link rel="stylesheet" href="/scss/style.min.1876ab1beb85f0f617447014141ab7435ef441abad4697cec5d0d907b30749e1.css"><meta property='og:title' content="Category: Cocos - 西江月:Tree-emperor">
 <meta property='og:description' content="Cocos遇到的问题">
 <meta property='og:url' content='https://Tree-emperor.github.io/categories/cocos/'>
 <meta property='og:site_name' content='西江月:Tree-emperor'>
-<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-05-26T00:00:00&#43;00:00 '/><meta property='og:image' content='https://Tree-emperor.github.io/categories/cocos/%E5%B0%8F%E9%87%91%E9%B1%BC.jpg' />
+<meta property='og:type' content='website'><meta property='og:updated_time' content=' 2025-06-12T00:00:00&#43;00:00 '/><meta property='og:image' content='https://Tree-emperor.github.io/categories/cocos/%E8%B1%86%E8%B1%86.jpg' />
 <meta name="twitter:title" content="Category: Cocos - 西江月:Tree-emperor">
 <meta name="twitter:description" content="Cocos遇到的问题"><meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:image" content='https://Tree-emperor.github.io/categories/cocos/%E5%B0%8F%E9%87%91%E9%B1%BC.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://Tree-emperor.github.io/categories/cocos/index.xml">
+    <meta name="twitter:image" content='https://Tree-emperor.github.io/categories/cocos/%E8%B1%86%E8%B1%86.jpg' /><link rel="alternate" type="application/rss&#43;xml" href="https://Tree-emperor.github.io/categories/cocos/index.xml">
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -290,7 +290,7 @@
 
     <div class="tagCloud-tags">
         
-            <a href="/categories/hugo/" class="font_size_1">
+            <a href="/categories/hugo/" class="font_size_2">
                 Hugo
             </a>
         
@@ -323,7 +323,7 @@
                 
             </div>
                 <div class="section-image">
-                    <img src="/categories/cocos/%E5%B0%8F%E9%87%91%E9%B1%BC_hu_9c34c0c54e68ee7d.jpg" 
+                    <img src="/categories/cocos/%E8%B1%86%E8%B1%86_hu_87c3845ed90f10b2.jpg" 
                             width="120"
                             height="120" 
                             loading="lazy">
@@ -582,6 +582,18 @@
         display: block;
     }
   }
+
+   
+  #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://Tree-emperor.github.io/icons/backTop.svg);
+    }
 </style>
 
 <script>
@@ -618,6 +630,35 @@
           } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
       });
     }
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
     initTocHide()
 </script>
     </body>

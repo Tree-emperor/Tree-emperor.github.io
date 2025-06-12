@@ -6,13 +6,14 @@
 
 <link rel='canonical' href='https://Tree-emperor.github.io/p/springai/'>
 
-<link rel="stylesheet" href="/scss/style.min.96898672996ceaf55ba2685dc5625c1f21e1bd7ddf5ed448c8e7d904cce3b03e.css"><meta property='og:title' content="SpringAI学习">
+<link rel="stylesheet" href="/scss/style.min.1876ab1beb85f0f617447014141ab7435ef441abad4697cec5d0d907b30749e1.css"><meta property='og:title' content="SpringAI学习">
 <meta property='og:description' content="SpringAI M8版本学习及遇到的问题">
 <meta property='og:url' content='https://Tree-emperor.github.io/p/springai/'>
 <meta property='og:site_name' content='西江月:Tree-emperor'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-26T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-26T00:00:00&#43;00:00'/>
+<meta property='og:type' content='article'><meta property='article:section' content='Post' /><meta property='article:published_time' content='2025-05-26T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2025-05-26T00:00:00&#43;00:00'/><meta property='og:image' content='https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg' />
 <meta name="twitter:title" content="SpringAI学习">
-<meta name="twitter:description" content="SpringAI M8版本学习及遇到的问题">
+<meta name="twitter:description" content="SpringAI M8版本学习及遇到的问题"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg' />
     <link rel="shortcut icon" href="/favicon.ico" />
 
     </head>
@@ -285,8 +286,16 @@
 
 
             <main class="main full-width">
-    <article class="main-article">
+    <article class="has-image main-article">
     <header class="article-header">
+        <div class="article-image">
+            <a href="/p/springai/">
+                
+                    <img src="https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg" loading="lazy" alt="Featured image of post SpringAI学习" />
+                
+            </a>
+        </div>
+    
 
     <div class="article-details">
     
@@ -436,6 +445,7 @@
 </span><span class="lnt">16
 </span><span class="lnt">17
 </span><span class="lnt">18
+</span><span class="lnt">19
 </span></code></pre></td>
 <td class="lntd">
 <pre tabindex="0" class="chroma"><code class="language-java" data-lang="java"><span class="line"><span class="cl"><span class="c1">//会话记忆  </span><span class="w">
@@ -443,6 +453,7 @@
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="n">ChatMemory</span><span class="w"> </span><span class="nf">chatMemory</span><span class="p">(){</span><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="k">return</span><span class="w"> </span><span class="n">MessageWindowChatMemory</span><span class="p">.</span><span class="na">builder</span><span class="p">().</span><span class="na">build</span><span class="p">();</span><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="p">};</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="nd">@Bean</span><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w"></span><span class="kd">public</span><span class="w"> </span><span class="n">ChatClient</span><span class="w"> </span><span class="nf">chatClient</span><span class="p">(</span><span class="n">OpenAiChatModel</span><span class="w"> </span><span class="n">openAiChatModel</span><span class="p">,</span><span class="n">ChatMemory</span><span class="w"> </span><span class="n">chatMemory</span><span class="p">)</span><span class="w"> </span><span class="p">{</span><span class="w">  
 </span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="n">String</span><span class="w"> </span><span class="n">prompt</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s">&#34;你的提示词&#34;</span><span class="p">;</span><span class="w">  
@@ -816,6 +827,18 @@
         display: block;
     }
   }
+
+   
+  #backTopBtn {
+        display: none;
+        position: fixed;
+        bottom: 30px;
+        z-index: 99;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        background-image: url(https://Tree-emperor.github.io/icons/backTop.svg);
+    }
 </style>
 
 <script>
@@ -852,6 +875,35 @@
           } while (ul !== undefined && (ul.localName === 'ul' || ul.localName === 'ol'))
       });
     }
+    
+
+    function initScrollTop() {
+        let rightSideBar = document.querySelector(".right-sidebar");
+        if (!rightSideBar) {
+            return;
+        }
+        
+        let btn = document.createElement("div");
+        btn.id = "backTopBtn";
+        btn.onclick = backToTop
+        rightSideBar.appendChild(btn)
+        
+        window.onscroll = function() {
+            
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                btn.style.display = "block";
+            } else {
+                btn.style.display = "none";
+            }
+        };
+    }
+    
+
+    function backToTop(){
+        window.scrollTo({ top: 0, behavior: "smooth" })
+    }
+
+    initScrollTop();
     initTocHide()
 </script>
     </body>
