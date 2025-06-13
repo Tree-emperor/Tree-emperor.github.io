@@ -2,33 +2,41 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 西江月:Tree-emperor</title>
-        <link>https://Tree-emperor.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>西江月</copyright>
-        <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Tree-emperor.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>我是Java</title>
-        <link>https://Tree-emperor.github.io/tags/java/</link>
+        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo</title>
+        <link>http://localhost:1313/tags/hugo/</link>
+        <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/tags/hugo/</guid>
+        <description></description>
+        </item>
+        <item>
+        <title>Spring</title>
+        <link>http://localhost:1313/tags/spring/</link>
         <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/java/</guid>
+        <guid>http://localhost:1313/tags/spring/</guid>
         <description></description>
         </item>
         <item>
-        <title>我是PY</title>
-        <link>https://Tree-emperor.github.io/tags/python/</link>
+        <title>redis</title>
+        <link>http://localhost:1313/tags/redis/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/python/</guid>
+        <guid>http://localhost:1313/tags/redis/</guid>
         <description></description>
         </item>
         <item>
-        <title>我是vue</title>
-        <link>https://Tree-emperor.github.io/tags/vue/</link>
+        <title>vue3</title>
+        <link>http://localhost:1313/tags/vue/</link>
         <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/vue/</guid>
+        <guid>http://localhost:1313/tags/vue/</guid>
         <description></description>
         </item>
         

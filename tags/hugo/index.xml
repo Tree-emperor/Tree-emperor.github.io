@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Hugo on 西江月:Tree-emperor</title>
+        <link>http://localhost:1313/tags/hugo/</link>
+        <description>Recent content in Hugo on 西江月:Tree-emperor</description>
+        <generator>Hugo -- gohugo.io</generator>
+        <language>zh-cn</language>
+        <copyright>西江月</copyright>
+        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Hugo &#43; Stack网站搭建</title>
+        <link>http://localhost:1313/p/myhugo/</link>
+        <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
+        
+        <guid>http://localhost:1313/p/myhugo/</guid>
+        <description>&lt;img src="https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/cover_hu9421790518969970727.png" alt="Featured image of post Hugo &#43; Stack网站搭建" /&gt;&lt;p&gt;先来个友情链接：&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;【Hugo】Stack主题自定义修改&lt;/a&gt;&lt;/p&gt;
+</description>
+        </item>
+        
+    </channel>
+</rss>
