@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>网页设计 on 西江月:Tree-emperor</title>
-        <link>http://localhost:1313/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
+        <link>https://Tree-emperor.github.io/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/</link>
         <description>Recent content in 网页设计 on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>西江月</copyright>
-        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 12 Jun 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://Tree-emperor.github.io/categories/%E7%BD%91%E9%A1%B5%E8%AE%BE%E8%AE%A1/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Hugo &#43; Stack网站搭建</title>
-        <link>http://localhost:1313/p/myhugo/</link>
+        <link>https://Tree-emperor.github.io/p/myhugo/</link>
         <pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/myhugo/</guid>
+        <guid>https://Tree-emperor.github.io/p/myhugo/</guid>
         <description>&lt;img src="https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/cover_hu9421790518969970727.png" alt="Featured image of post Hugo &#43; Stack网站搭建" /&gt;&lt;p&gt;先来个友情链接：&lt;/p&gt;
 &lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://letere-gzj.github.io/hugo-stack/p/hugo/custom-stack-theme/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;【Hugo】Stack主题自定义修改&lt;/a&gt;&lt;/p&gt;
@@ -20,10 +20,10 @@
         </item>
         <item>
         <title>SpringAI学习</title>
-        <link>http://localhost:1313/p/springai/</link>
+        <link>https://Tree-emperor.github.io/p/springai/</link>
         <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>http://localhost:1313/p/springai/</guid>
+        <guid>https://Tree-emperor.github.io/p/springai/</guid>
         <description>&lt;img src="https://springdoc.cn/spring-ai/_images/spring_ai_logo_with_text.svg" alt="Featured image of post SpringAI学习" /&gt;&lt;h2 id=&#34;springai-m8版本&#34;&gt;SpringAI M8版本
 &lt;/h2&gt;&lt;p&gt;记录了SpringAI学习过程中遇到的一些小问题。&lt;/p&gt;
 &lt;p&gt;基本上全程都是跟着黑马的视频学习，只学习了chatAI系列：&lt;/p&gt;
