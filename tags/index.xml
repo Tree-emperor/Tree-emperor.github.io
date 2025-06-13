@@ -2,41 +2,33 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>Tags on 西江月:Tree-emperor</title>
-        <link>https://Tree-emperor.github.io/tags/</link>
+        <link>http://localhost:1313/tags/</link>
         <description>Recent content in Tags on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
         <copyright>西江月</copyright>
-        <lastBuildDate>Mon, 11 Mar 2019 00:00:00 +0000</lastBuildDate><atom:link href="https://Tree-emperor.github.io/tags/index.xml" rel="self" type="application/rss+xml" /><item>
-        <title>Css</title>
-        <link>https://Tree-emperor.github.io/tags/css/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <lastBuildDate>Mon, 26 May 2025 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/tags/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>我是Java</title>
+        <link>http://localhost:1313/tags/java/</link>
+        <pubDate>Mon, 26 May 2025 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/css/</guid>
+        <guid>http://localhost:1313/tags/java/</guid>
         <description></description>
         </item>
         <item>
-        <title>Html</title>
-        <link>https://Tree-emperor.github.io/tags/html/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>我是PY</title>
+        <link>http://localhost:1313/tags/python/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/html/</guid>
+        <guid>http://localhost:1313/tags/python/</guid>
         <description></description>
         </item>
         <item>
-        <title>Markdown</title>
-        <link>https://Tree-emperor.github.io/tags/markdown/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
+        <title>我是vue</title>
+        <link>http://localhost:1313/tags/vue/</link>
+        <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
         
-        <guid>https://Tree-emperor.github.io/tags/markdown/</guid>
-        <description></description>
-        </item>
-        <item>
-        <title>Themes</title>
-        <link>https://Tree-emperor.github.io/tags/themes/</link>
-        <pubDate>Mon, 11 Mar 2019 00:00:00 +0000</pubDate>
-        
-        <guid>https://Tree-emperor.github.io/tags/themes/</guid>
+        <guid>http://localhost:1313/tags/vue/</guid>
         <description></description>
         </item>
         
