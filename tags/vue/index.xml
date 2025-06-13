@@ -2,10 +2,10 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
     <channel>
         <title>我是vue on 西江月:Tree-emperor</title>
-        <link>http://localhost:1313/tags/vue/</link>
+        <link>https://Tree-emperor.github.io/tags/vue/</link>
         <description>Recent content in 我是vue on 西江月:Tree-emperor</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>zh-cn</language>
-        <copyright>西江月</copyright><atom:link href="http://localhost:1313/tags/vue/index.xml" rel="self" type="application/rss+xml" />
+        <copyright>西江月</copyright><atom:link href="https://Tree-emperor.github.io/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     </channel>
 </rss>
